@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.lianxi.suite.SuiteConfig" />
+            <class name="com.lianxi.suite.LoginTest" />
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.lianxi.suite.SuiteConfig" />
+            <class name="com.lianxi.suite.PayTest" />
+        </classes>
+
+    </test>
+</suite>
