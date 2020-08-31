@@ -10,7 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="helloworld-maven" target="1.5" />
+      <module name="Chapter1" target="1.5" />
+      <module name="helloworld-maven" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
