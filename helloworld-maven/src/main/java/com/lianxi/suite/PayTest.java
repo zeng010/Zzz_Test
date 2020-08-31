@@ -12,4 +12,7 @@ public class PayTest {
     public void paySuccess(){
         System.out.println("淘宝支付成功！");
     }
+    public void method(){
+        System.out.println("hhhh");
+    }
 }
