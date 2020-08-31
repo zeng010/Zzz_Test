@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class TimeOutTest {
     @Test(timeOut = 3000)
     public void testSuccess() throws Exception{
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         System.out.println("测试成功。。。");
     }
 }
