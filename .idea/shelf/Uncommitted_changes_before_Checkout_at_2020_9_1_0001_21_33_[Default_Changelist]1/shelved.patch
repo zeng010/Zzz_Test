@@ -1,0 +1,212 @@
+Index: helloworld-maven/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>com.jh</groupId>\r\n    <artifactId>helloworld-maven</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>6.8</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.relevantcodes</groupId>\r\n            <artifactId>extentreports</artifactId>\r\n            <version>2.41.1</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.vimalselvam</groupId>\r\n            <artifactId>testng-extentsreport</artifactId>\r\n            <version>1.3.1</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.aventstack</groupId>\r\n            <artifactId>extentreports</artifactId>\r\n            <version>3.0.6</version>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- helloworld-maven/pom.xml	(revision e89cf6298ecbe26bcc8f5187514ca54da0fdd0bd)
++++ helloworld-maven/pom.xml	(date 1598962696711)
+@@ -7,6 +7,18 @@
+     <groupId>com.jh</groupId>
+     <artifactId>helloworld-maven</artifactId>
+     <version>1.0-SNAPSHOT</version>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>6</source>
++                    <target>6</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+     <dependencies>
+         <dependency>
+             <groupId>org.testng</groupId>
+Index: helloworld-maven/src/main/java/com/lianxi/extend/TestMethodDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.lianxi.extend;\r\n\r\nimport org.testng.Assert;\r\nimport org.testng.Reporter;\r\nimport org.testng.annotations.Test;\r\n\r\n/**\r\n * @author: Zzz_tjhd\r\n * @date: 2020-08-31 22:11\r\n */\r\npublic class TestMethodDemo {\r\n    @Test\r\n    public void test1(){\r\n        Assert.assertEquals(1,2);\r\n    }\r\n    @Test\r\n    public void test2(){\r\n        Assert.assertEquals(1,1);\r\n    }\r\n    @Test\r\n    public void test3(){\r\n        Assert.assertEquals(\"aaaa\",\"aaaa\");\r\n    }\r\n    @Test\r\n    public void logDemo(){\r\n        Reporter.log(\"手动增加的日志。。。\");\r\n        throw new RuntimeException(\"运行时发生的异常...\");\r\n    }\r\n\r\n}\r\n
+===================================================================
+--- helloworld-maven/src/main/java/com/lianxi/extend/TestMethodDemo.java	(revision e89cf6298ecbe26bcc8f5187514ca54da0fdd0bd)
++++ helloworld-maven/src/main/java/com/lianxi/extend/TestMethodDemo.java	(date 1598962634220)
+@@ -24,7 +24,7 @@
+     @Test
+     public void logDemo(){
+         Reporter.log("手动增加的日志。。。");
+-        throw new RuntimeException("运行时发生的异常...");
++        throw new RuntimeException("运行时发生的异常111111...");
+     }
+ 
+ }
+Index: helloworld-maven/test-output/extentReports-index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n<!DOCTYPE html>\r\n<html>\r\n\r\n\r\n<head>\r\n\t<meta charset='utf-8' /> \r\n\t<meta name='description' content='' />\r\n\t<meta name='robots' content='noodp, noydir' />\r\n\t<meta name='viewport' content='width=device-width, initial-scale=1' />\r\n\t<meta id=\"timeStampFormat\" name=\"timeStampFormat\" content='MMM d, yyyy hh:mm:ss a'/>\r\n\t\r\n\t<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>\r\n\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n\r\n\t\t<link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet' />\r\n\t\r\n\t<title>自动化测试报告</title>\r\n\r\n\t<style type='text/css'>\r\n\t\t.node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}\r\n\t</style>\r\n</head>\r\n\r\n\t<body class='extent standard default hide-overflow '>\r\n\t\t<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>\r\n\t\t\t<span><i class='material-icons'>desktop_windows</i></span>\r\n\t\t</div>\r\n\r\n<nav>\r\n\t<div class=\"nav-wrapper\">\r\n\t\t<a href=\"#!\" class=\"brand-logo blue darken-3\">Extent</a>\r\n\r\n\t\t<!-- slideout menu -->\r\n\t\t<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>\r\n\t\t\t<li class='waves-effect active'><a href='#!' view='test-view' onclick=\"configureView(0);chartsView('test');\"><i class='material-icons'>dashboard</i></a></li>\r\n\t\t\t\t\t\t<li class='waves-effect'><a href='#!' view='exception-view' onclick=\"configureView(2)\"><i class='material-icons'>bug_report</i></a></li>\r\n\t\t\t<li class='waves-effect'><a href='#!' onclick=\"configureView(-1);chartsView('dashboard');\" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>\r\n\t\t</ul>\r\n\r\n\t\t<!-- report name -->\r\n\t\t<span class='report-name'>自动化测试报告</span>\r\n\t\t\r\n\t\t<!-- report headline -->\r\n\t\t<span class='report-headline'></span>\r\n\r\n\t\t<!-- nav-right -->\r\n\t\t<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>\r\n\t\t\t<li>\r\n                <a href='#!'>\r\n                    <span class='label suite-start-time blue darken-3'>Aug 31, 2020 10:32:16 PM</span>\r\n\t\t\t\t</a>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n                <a href='#!'>\r\n                    <span class='label blue darken-3'>v3.0.6</span>\r\n\t\t\t\t</a>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t</div>\r\n</nav>\r\n\r\n\t\t<!-- container -->\r\n\t\t<div class='container'>\r\n\r\n<div id='test-view' class='view'>\r\n\t\t\t\t\r\n\t<section id='controls'>\r\n\t\t<div class='controls grey lighten-4'>\r\n\t\t\t<!-- test toggle -->\r\n\t\t\t<div class='chip transparent'>\r\n\t\t\t\t<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>\r\n\t\t\t\t\t<i class='material-icons'>warning</i> Status\r\n\t\t\t\t</a>\r\n\t\t\t\t<ul id='tests-toggle' class='dropdown-content'>\r\n\t\t\t\t\t\t\t\t\t\t\t<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>\r\n\t\t\t\t\t\t<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>\r\n\t\t\t\t\t<li class='divider'></li>\r\n\t\t\t\t\t<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t<!-- test toggle -->\r\n\r\n\t\t\t<!-- category toggle -->\r\n\t\t\t<!-- category toggle -->\r\n\r\n\t\t\t<!-- clear filters -->\r\n\t\t\t<div class='chip transparent hide'>\r\n\t\t\t\t<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>\r\n\t\t\t\t\t<i class='material-icons'>close</i> Clear\r\n\t\t\t\t</a>\r\n\t\t\t</div>\r\n\t\t\t<!-- clear filters -->\r\n\r\n\t\t\t<!-- enable dashboard -->\r\n\t\t\t<div id='toggle-test-view-charts' class='chip transparent'>\r\n\t\t\t\t<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>\r\n\t\t\t\t\t<i class='material-icons'>track_changes</i> Dashboard\r\n\t\t\t\t</a>\r\n\t\t\t</div>\r\n\t\t\t<!-- enable dashboard -->\r\n\r\n\t\t\t<!-- search -->\r\n\t\t\t<div class='chip transparent' alt='Search Tests' title='Search Tests'>\r\n\t\t\t\t<a href=\"#\" class='search-div'>\r\n\t\t\t\t\t<i class='material-icons'>search</i> Search\r\n\t\t\t\t</a>\r\n\r\n\t\t\t\t<div class='input-field left hide'>\r\n\t\t\t\t\t<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>\r\n\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t<!-- search -->\r\n\t\t</div>\r\n\t</section>\r\n\r\n\r\n<div id='test-view-charts' class='subview-full'>\r\n\t<div id='charts-row' class='row nm-v nm-h'>\r\n\t\t<div class='col s12 m6 l6 np-h'>\r\n\t\t\t<div class='card-panel nm-v'>\r\n\t\t\t\t<div class='left panel-name'>Tests</div>\r\n\t\t\t\t<div class='chart-box'>\r\n\t\t\t\t\t<canvas id='parent-analysis' width='100' height='80'></canvas>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class='block text-small'>\r\n\t\t\t\t\t<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> test(s) passed</span>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class='block text-small'>\r\n\t\t\t\t\t<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t\r\n\t\t<div class='col s12 m6 l6 np-h'>\r\n\t\t\t<div class='card-panel nm-v'>\r\n\t\t\t\t<div class='left panel-name'>Steps</div>\r\n\t\t\t\t<div class='chart-box'>\r\n\t\t\t\t\t<canvas id='child-analysis' width='100' height='80'></canvas>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class='block text-small'>\r\n\t\t\t\t\t<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> step(s) passed</span>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class='block text-small'>\r\n\t\t\t\t\t<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t\r\n\t</div>\r\n</div>\r\n\r\n\t<div class='subview-left left'>\r\n\t\t\r\n\t\t<div class='view-summary'>\r\n\t\t\t<h5>Tests</h5>\r\n\t\t\t<ul id='test-collection' class='test-collection'>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>test1</span>\r\n\t\t\t\t\t\t<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right fail'>fail</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+8ms</span>\r\n</div>\r\n\t<div class='test-steps'>\r\n\t\t<table class='bordered table-results'>\r\n\t\t\t<thead>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th>Status</th>\r\n\t\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t\t<th>Details</th>\r\n\t\t\t\t</tr>\r\n\t\t\t</thead>\r\n\t\t\t<tbody>\r\n\t\t\t\t<tr class='log' status='fail'>\r\n\t\t\t\t\t<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>\r\n\t\t\t\t\t<td class='timestamp'>10:32:16 PM</td>\r\n\t\t\t\t\t<td class='step-details'><pre>java.lang.AssertionError: expected [2] but found [1]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:370)\r\n\tat org.testng.Assert.assertEquals(Assert.java:380)\r\n\tat com.lianxi.extend.TestMethodDemo.test1(TestMethodDemo.java:14)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\r\n</pre></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>logDemo</span>\r\n\t\t\t\t\t\t<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right fail'>fail</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>\r\n</div>\r\n\t<div class='test-steps'>\r\n\t\t<table class='bordered table-results'>\r\n\t\t\t<thead>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th>Status</th>\r\n\t\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t\t<th>Details</th>\r\n\t\t\t\t</tr>\r\n\t\t\t</thead>\r\n\t\t\t<tbody>\r\n\t\t\t\t<tr class='log' status='debug'>\r\n\t\t\t\t\t<td class='status debug' title='debug' alt='debug'><i class='material-icons'>low_priority</i></td>\r\n\t\t\t\t\t<td class='timestamp'>10:32:16 PM</td>\r\n\t\t\t\t\t<td class='step-details'>手动增加的日志。。。</td>\r\n\t\t\t\t</tr>\r\n\t\t\t\t<tr class='log' status='fail'>\r\n\t\t\t\t\t<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>\r\n\t\t\t\t\t<td class='timestamp'>10:32:16 PM</td>\r\n\t\t\t\t\t<td class='step-details'><pre>java.lang.RuntimeException: 运行时发生的异常...\r\n\tat com.lianxi.extend.TestMethodDemo.logDemo(TestMethodDemo.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\r\n</pre></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>test2</span>\r\n\t\t\t\t\t\t<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>\r\n</div>\r\n\t<div class='test-steps'>\r\n\t\t<table class='bordered table-results'>\r\n\t\t\t<thead>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th>Status</th>\r\n\t\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t\t<th>Details</th>\r\n\t\t\t\t</tr>\r\n\t\t\t</thead>\r\n\t\t\t<tbody>\r\n\t\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t\t<td class='timestamp'>10:32:16 PM</td>\r\n\t\t\t\t\t<td class='step-details'>Test passed</td>\r\n\t\t\t\t</tr>\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>test3</span>\r\n\t\t\t\t\t\t<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>\r\n</div>\r\n\t<div class='test-steps'>\r\n\t\t<table class='bordered table-results'>\r\n\t\t\t<thead>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<th>Status</th>\r\n\t\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t\t<th>Details</th>\r\n\t\t\t\t</tr>\r\n\t\t\t</thead>\r\n\t\t\t<tbody>\r\n\t\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t\t<td class='timestamp'>10:32:16 PM</td>\r\n\t\t\t\t\t<td class='step-details'>Test passed</td>\r\n\t\t\t\t</tr>\r\n\t\t\t</tbody>\r\n\t\t</table>\r\n\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- subview left -->\r\n\r\n\t<div class='subview-right left'>\r\n\t\t<div class='view-summary'>\r\n\t\t\t<h5 class='test-name'></h5>\r\n\r\n\t\t\t<div id='step-filters' class=\"right\">\r\n\t\t\t\t<span class=\"blue-text\" status=\"info\" alt=\"info\" title=\"info\"><i class=\"material-icons\">info_outline</i></span>\r\n\t\t\t\t<span class=\"green-text\" status=\"pass\" alt=\"pass\" title=\"pass\"><i class=\"material-icons\">check_circle</i></span>\r\n\t\t\t\t<span class=\"red-text\" status=\"fail\" alt=\"fail\" title=\"fail\"><i class=\"material-icons\">cancel</i></span>\r\n\t\t\t\t<span class=\"red-text text-darken-4\" status=\"fatal\" alt=\"fatal\" title=\"fatal\"><i class=\"material-icons\">cancel</i></span>\r\n\t\t\t\t<span class=\"pink-text text-lighten-1\" status=\"error\" alt=\"error\" title=\"error\"><i class=\"material-icons\">error</i></span>\r\n\t\t\t\t<span class=\"orange-text\" alt=\"warning\" status=\"warning\" title=\"warning\"><i class=\"material-icons\">warning</i></span>\r\n\t\t\t\t<span class=\"teal-text\" status=\"skip\" alt=\"skip\" title=\"skip\"><i class=\"material-icons\">redo</i></span>\r\n\t\t\t\t<span status=\"clear\" alt=\"Clear filters\" title=\"Clear filters\"><i class=\"material-icons\">clear</i></span>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- subview right -->\r\n\r\n</div>\r\n<!-- test view -->\r\n<!-- category view -->\r\n<div id='exception-view' class='view hide'>\r\n\r\n    <section id='controls'>\r\n        <div class='controls grey lighten-4'>\r\n            <!-- search -->\r\n            <div class='chip transparent' alt='Search Tests' title='Search Tests'>\r\n                <a href=\"#\" class='search-div'>\r\n                    <i class='material-icons'>search</i> Search\r\n                </a>\r\n\r\n                <div class='input-field left hide'>\r\n                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>\r\n                </div>\r\n\r\n            </div>\r\n            <!-- search -->\r\n        </div>\r\n    </section>\r\n\r\n    <div class='subview-left left'>\r\n\r\n        <div class='view-summary'>\r\n            <h5>Exceptions</h3>\r\n                <ul id='exception-collection' class='exception-collection'>\r\n\r\n                        <li class='exception displayed active'>\r\n                            <div class='exception-heading'>\r\n                                <span class='exception-name'>java.lang.AssertionError</span>\r\n                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>\r\n                            </div>\r\n                            <div class='exception-content hide'>\r\n                                <div class='exception-tests'>\r\n                                    <table class='bordered table-results'>\r\n                                        <thead>\r\n                                        <tr>\r\n                                            <th>Timestamp</th>\r\n                                            <th>TestName</th>\r\n                                            <th>Status</th>\r\n                                        </tr>\r\n                                        </thead>\r\n                                        <tbody>\r\n                                                    <tr>\r\n                                                        <td>Aug 31, 2020 10:32:16 PM</td>\r\n                                                        <td class='linked' test-id='1'>test1</td>\r\n                                                        <td><pre><pre>java.lang.AssertionError: expected [2] but found [1]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:370)\r\n\tat org.testng.Assert.assertEquals(Assert.java:380)\r\n\tat com.lianxi.extend.TestMethodDemo.test1(TestMethodDemo.java:14)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\r\n</pre></pre></td>\r\n                                                    </tr>\r\n                                        </tbody>\r\n                                    </table>\r\n                                </div>\r\n                            </div>\r\n                        </li>\r\n                        <li class='exception displayed active'>\r\n                            <div class='exception-heading'>\r\n                                <span class='exception-name'>java.lang.RuntimeException</span>\r\n                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>\r\n                            </div>\r\n                            <div class='exception-content hide'>\r\n                                <div class='exception-tests'>\r\n                                    <table class='bordered table-results'>\r\n                                        <thead>\r\n                                        <tr>\r\n                                            <th>Timestamp</th>\r\n                                            <th>TestName</th>\r\n                                            <th>Status</th>\r\n                                        </tr>\r\n                                        </thead>\r\n                                        <tbody>\r\n                                                    <tr>\r\n                                                        <td>Aug 31, 2020 10:32:16 PM</td>\r\n                                                        <td class='linked' test-id='2'>logDemo</td>\r\n                                                        <td><pre><pre>java.lang.RuntimeException: 运行时发生的异常...\r\n\tat com.lianxi.extend.TestMethodDemo.logDemo(TestMethodDemo.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\r\n</pre></pre></td>\r\n                                                    </tr>\r\n                                        </tbody>\r\n                                    </table>\r\n                                </div>\r\n                            </div>\r\n                        </li>\r\n                </ul>\r\n        </div>\r\n    </div>\r\n\r\n    <div class='subview-right left'>\r\n        <div class='view-summary'>\r\n            <h5 class='exception-name'></h5>\r\n        </div>\r\n    </div>\r\n</div>\r\n<!-- exception view -->\r\n<div id='dashboard-view' class='view hide'>\r\n\t<div class='card-panel transparent np-v'>\r\n\t\t<h5>Dashboard</h5>\r\n\r\n\t\t<div class='row'>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tTests\r\n\t\t\t\t\t<div class='panel-lead'>4</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tSteps\r\n\t\t\t\t\t<div class='panel-lead'>4</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tStart\r\n\t\t\t\t\t<div class='panel-lead'>Aug 31, 2020 10:32:16 PM</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t \t\tEnd\r\n\t\t\t \t\t<div class='panel-lead'>Aug 31, 2020 10:32:16 PM</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tTime Taken\r\n\t\t\t\t\t<div class='panel-lead'>8ms</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n<!-- dashboard view -->\r\n<!-- testrunner-logs view -->\r\n\t\t</div>\r\n\t\t<!-- container -->\r\n\r\n\t\t<script>\r\n\t\t\tvar statusGroup = {\r\n\t\t\t\tpassParent: 2,\r\n\t\t\t\tfailParent: 2,\r\n\t\t\t\tfatalParent: 0,\r\n\t\t\t\terrorParent: 0,\r\n\t\t\t\twarningParent: 0,\r\n\t\t\t\tskipParent: 0,\r\n\t\t\t\texceptionsParent: 2,\r\n\t\t\t\t\r\n\t\t\t\tpassChild: 2,\r\n\t\t\t\tfailChild: 2,\r\n\t\t\t\tfatalChild: 0,\r\n\t\t\t\terrorChild: 0,\r\n\t\t\t\twarningChild: 0,\r\n\t\t\t\tskipChild: 0,\r\n\t\t\t\tinfoChild: 0,\r\n\t\t\t\texceptionsChild: 3,\r\n\t\t\t\t\r\n\t\t\t\tpassGrandChild: 0,\r\n\t\t\t\tfailGrandChild: 0,\r\n\t\t\t\tfatalGrandChild: 0,\r\n\t\t\t\terrorGrandChild: 0,\r\n\t\t\t\twarningGrandChild: 0,\r\n\t\t\t\tskipGrandChild: 0,\r\n\t\t\t\tinfoGrandChild: 0,\r\n\t\t\t\texceptionsGrandChild: 0,\r\n\t\t\t};\r\n\t\t</script>\r\n\t\t\r\n\t\t\t<script src='http://extentreports.com/resx/dist/js/extent.js' type='text/javascript'></script>\r\n\t\t\r\n\t\t\r\n\t</body>\r\n\t\r\n</html>\r\n
+===================================================================
+--- helloworld-maven/test-output/extentReports-index.html	(revision e89cf6298ecbe26bcc8f5187514ca54da0fdd0bd)
++++ helloworld-maven/test-output/extentReports-index.html	(date 1598962649783)
+@@ -48,7 +48,7 @@
+ 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+ 			<li>
+                 <a href='#!'>
+-                    <span class='label suite-start-time blue darken-3'>Aug 31, 2020 10:32:16 PM</span>
++                    <span class='label suite-start-time blue darken-3'>Sep 1, 2020 08:17:29 PM</span>
+ 				</a>
+ 			</li>
+ 			<li>
+@@ -161,13 +161,13 @@
+ 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>test1</span>
+-						<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>
++						<span class='test-time'>Sep 1, 2020 08:17:29 PM</span>
+ 						<span class='test-status right fail'>fail</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>
+-	<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>
++	<span class='label start-time'>Sep 1, 2020 08:17:29 PM</span>
++	<span class='label end-time'>Sep 1, 2020 08:17:29 PM</span>
+ 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+8ms</span>
+ </div>
+ 	<div class='test-steps'>
+@@ -182,7 +182,7 @@
+ 			<tbody>
+ 				<tr class='log' status='fail'>
+ 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+-					<td class='timestamp'>10:32:16 PM</td>
++					<td class='timestamp'>8:17:29 PM</td>
+ 					<td class='step-details'><pre>java.lang.AssertionError: expected [2] but found [1]
+ 	at org.testng.Assert.fail(Assert.java:94)
+ 	at org.testng.Assert.failNotEquals(Assert.java:494)
+@@ -225,14 +225,14 @@
+ 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>logDemo</span>
+-						<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>
++						<span class='test-time'>Sep 1, 2020 08:17:29 PM</span>
+ 						<span class='test-status right fail'>fail</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>
+-	<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
++	<span class='label start-time'>Sep 1, 2020 08:17:29 PM</span>
++	<span class='label end-time'>Sep 1, 2020 08:17:29 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+ </div>
+ 	<div class='test-steps'>
+ 		<table class='bordered table-results'>
+@@ -246,13 +246,13 @@
+ 			<tbody>
+ 				<tr class='log' status='debug'>
+ 					<td class='status debug' title='debug' alt='debug'><i class='material-icons'>low_priority</i></td>
+-					<td class='timestamp'>10:32:16 PM</td>
++					<td class='timestamp'>8:17:29 PM</td>
+ 					<td class='step-details'>手动增加的日志。。。</td>
+ 				</tr>
+ 				<tr class='log' status='fail'>
+ 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+-					<td class='timestamp'>10:32:16 PM</td>
+-					<td class='step-details'><pre>java.lang.RuntimeException: 运行时发生的异常...
++					<td class='timestamp'>8:17:29 PM</td>
++					<td class='step-details'><pre>java.lang.RuntimeException: 运行时发生的异常111111...
+ 	at com.lianxi.extend.TestMethodDemo.logDemo(TestMethodDemo.java:27)
+ 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+@@ -289,13 +289,13 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>test2</span>
+-						<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>
++						<span class='test-time'>Sep 1, 2020 08:17:29 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>
+-	<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>
++	<span class='label start-time'>Sep 1, 2020 08:17:29 PM</span>
++	<span class='label end-time'>Sep 1, 2020 08:17:29 PM</span>
+ 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+ </div>
+ 	<div class='test-steps'>
+@@ -310,7 +310,7 @@
+ 			<tbody>
+ 				<tr class='log' status='pass'>
+ 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-					<td class='timestamp'>10:32:16 PM</td>
++					<td class='timestamp'>8:17:29 PM</td>
+ 					<td class='step-details'>Test passed</td>
+ 				</tr>
+ 			</tbody>
+@@ -323,13 +323,13 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>test3</span>
+-						<span class='test-time'>Aug 31, 2020 10:32:16 PM</span>
++						<span class='test-time'>Sep 1, 2020 08:17:29 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Aug 31, 2020 10:32:16 PM</span>
+-	<span class='label end-time'>Aug 31, 2020 10:32:16 PM</span>
++	<span class='label start-time'>Sep 1, 2020 08:17:29 PM</span>
++	<span class='label end-time'>Sep 1, 2020 08:17:29 PM</span>
+ 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+ </div>
+ 	<div class='test-steps'>
+@@ -344,7 +344,7 @@
+ 			<tbody>
+ 				<tr class='log' status='pass'>
+ 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-					<td class='timestamp'>10:32:16 PM</td>
++					<td class='timestamp'>8:17:29 PM</td>
+ 					<td class='step-details'>Test passed</td>
+ 				</tr>
+ 			</tbody>
+@@ -420,7 +420,7 @@
+                                         </thead>
+                                         <tbody>
+                                                     <tr>
+-                                                        <td>Aug 31, 2020 10:32:16 PM</td>
++                                                        <td>Sep 1, 2020 08:17:29 PM</td>
+                                                         <td class='linked' test-id='1'>test1</td>
+                                                         <td><pre><pre>java.lang.AssertionError: expected [2] but found [1]
+ 	at org.testng.Assert.fail(Assert.java:94)
+@@ -476,9 +476,9 @@
+                                         </thead>
+                                         <tbody>
+                                                     <tr>
+-                                                        <td>Aug 31, 2020 10:32:16 PM</td>
++                                                        <td>Sep 1, 2020 08:17:29 PM</td>
+                                                         <td class='linked' test-id='2'>logDemo</td>
+-                                                        <td><pre><pre>java.lang.RuntimeException: 运行时发生的异常...
++                                                        <td><pre><pre>java.lang.RuntimeException: 运行时发生的异常111111...
+ 	at com.lianxi.extend.TestMethodDemo.logDemo(TestMethodDemo.java:27)
+ 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+@@ -541,13 +541,13 @@
+ 			<div class='col s2'>
+ 				<div class='card-panel r'>
+ 					Start
+-					<div class='panel-lead'>Aug 31, 2020 10:32:16 PM</div>
++					<div class='panel-lead'>Sep 1, 2020 08:17:29 PM</div>
+ 				</div>
+ 			</div>
+ 			<div class='col s2'>
+ 				<div class='card-panel r'>
+ 			 		End
+-			 		<div class='panel-lead'>Aug 31, 2020 10:32:16 PM</div>
++			 		<div class='panel-lead'>Sep 1, 2020 08:17:29 PM</div>
+ 				</div>
+ 			</div>
+ 			<div class='col s2'>
+diff --git helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst

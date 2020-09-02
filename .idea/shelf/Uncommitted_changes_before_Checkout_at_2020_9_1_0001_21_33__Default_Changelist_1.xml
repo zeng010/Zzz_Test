@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2020_9_1_0001_21_33_[Default_Changelist]1" date="1598967244195" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_9_1_0001_21_33_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2020/9/1 0001 21:33 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="helloworld-maven/target/classes/com/lianxi/extend/TestMethodDemo.class" />
+    <option name="AFTER_PATH" value="helloworld-maven/target/classes/com/lianxi/extend/TestMethodDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_9_1_0001_21_33_[Default_Changelist]1/TestMethodDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="helloworld-maven/target/helloworld-maven-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="helloworld-maven/target/helloworld-maven-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_9_1_0001_21_33_[Default_Changelist]1/helloworld-maven-1.0-SNAPSHOT.jar" />
+  </binary>
+</changelist>

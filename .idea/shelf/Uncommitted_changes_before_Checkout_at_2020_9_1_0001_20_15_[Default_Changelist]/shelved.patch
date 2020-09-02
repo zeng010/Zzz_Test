@@ -1,0 +1,234 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1c05a01b-e66a-4271-ae8d-4a3fc2e0561e\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/Zzz_Test.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/helloworld-maven.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/Basic1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/IgnoreTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass3.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsOnMethod.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/paramter/DataTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/paramter/ParamterTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/DependTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/ExceptedDemo.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/LoginTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/PayTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/SuiteConfig.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/thread/MultiThread.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/thread/MultiThreadXML.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/resources/groupsOnClass.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/resources/multiThread.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/resources/paramter.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/helloworld-maven/src/main/resources/suite.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/1.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test.txt\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Tag Library Descriptor\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"LogFilters\">\r\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\r\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\r\n    <option name=\"FILTER_INFO\" value=\"true\" />\r\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\r\n    <option name=\"CUSTOM_FILTER\" />\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"delegateBuildToMaven\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1giU8GkDQ9ED0Lgxs7vI5zfgqIy\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"com.obroom.plugin.mybatislog.running\" value=\"0\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../../idea_project/lianxi-maven\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Artifacts\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2413793\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settings.project.maven.runner\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.lianxi.groups\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TimeOutTest\">\r\n    <configuration name=\"DataTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"helloworld-maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lianxi.paramter.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.lianxi.paramter\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lianxi.paramter.DataTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"helloworld-maven\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/helloworld-maven/src/main/resources/multiThread.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MultiThread\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"helloworld-maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lianxi.thread.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.lianxi.thread\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lianxi.thread.MultiThread\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MultiThread.test1\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"helloworld-maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lianxi.thread.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.lianxi.thread\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lianxi.thread.MultiThread\" />\r\n      <option name=\"METHOD_NAME\" value=\"test1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TimeOutTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"helloworld-maven\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.lianxi.suite.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.lianxi.suite\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.lianxi.suite.TimeOutTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Tomcat 9.0.33\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" APPLICATION_SERVER_NAME=\"Tomcat 9.0.33\" ALTERNATIVE_JRE_ENABLED=\"false\" nameIsGenerated=\"true\">\r\n      <option name=\"OPEN_IN_BROWSER_URL\" value=\"http://localhost:8080/helloworld_maven/\" />\r\n      <option name=\"UPDATING_POLICY\" value=\"restart-server\" />\r\n      <deployment>\r\n        <file path=\"$PROJECT_DIR$/helloworld-maven\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/helloworld_maven\" />\r\n          </settings>\r\n        </file>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"Unnamed_Zzz_Test\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"11455\" />\r\n      </RunnerSettings>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Cover\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Debug\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Tomcat Server.Tomcat 9.0.33\" />\r\n      <item itemvalue=\"TestNG.DataTest\" />\r\n      <item itemvalue=\"TestNG.MultiThread\" />\r\n      <item itemvalue=\"TestNG.MultiThread.test1\" />\r\n      <item itemvalue=\"TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml\" />\r\n      <item itemvalue=\"TestNG.TimeOutTest\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TimeOutTest\" />\r\n        <item itemvalue=\"TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml\" />\r\n        <item itemvalue=\"TestNG.MultiThread.test1\" />\r\n        <item itemvalue=\"TestNG.MultiThread\" />\r\n        <item itemvalue=\"TestNG.DataTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1c05a01b-e66a-4271-ae8d-4a3fc2e0561e\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1598596745847</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1598596745847</updated>\r\n      <workItem from=\"1598596749900\" duration=\"1208000\" />\r\n      <workItem from=\"1598597975939\" duration=\"3778000\" />\r\n      <workItem from=\"1598606070688\" duration=\"173000\" />\r\n      <workItem from=\"1598678248445\" duration=\"2764000\" />\r\n      <workItem from=\"1598765162292\" duration=\"11311000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"414\" y=\"175\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1598604022887\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"414\" y=\"175\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598604022887\" />\r\n    <state x=\"702\" y=\"320\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1598771077624\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"702\" y=\"320\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598771077624\" />\r\n    <state x=\"719\" y=\"204\" key=\"FileChooserDialogImpl\" timestamp=\"1598687356199\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"719\" y=\"204\" key=\"FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606087629\" />\r\n    <state x=\"719\" y=\"204\" key=\"FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598687356199\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1598800762646\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598800762646\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.center\" timestamp=\"1598800762646\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598800762646\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.left\" timestamp=\"1598800762646\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598800762646\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.right\" timestamp=\"1598800762646\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1877\" height=\"288\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598800762646\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.center\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.left\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.right\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.bottom\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.center\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.left\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.right\" timestamp=\"1598606046111\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1293\" height=\"282\" key=\"GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598606046111\" />\r\n    <state x=\"440\" y=\"94\" key=\"SettingsEditor\" timestamp=\"1598687293783\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"440\" y=\"94\" key=\"SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598604118315\" />\r\n    <state x=\"440\" y=\"94\" key=\"SettingsEditor/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598687293783\" />\r\n    <state x=\"334\" y=\"180\" key=\"new project wizard\" timestamp=\"1598602025202\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"334\" y=\"180\" key=\"new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040\" timestamp=\"1598602025202\" />\r\n    <state x=\"616\" y=\"240\" key=\"run.anything.popup\" timestamp=\"1598766472664\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"616\" y=\"240\" key=\"run.anything.popup/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1598766472664\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 9417abdfd0d5a48eb9a7dfcb30b93c244e04b133)
++++ .idea/workspace.xml	(date 1598962412284)
+@@ -16,48 +16,20 @@
+         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </expand>
+-    <select />
++    <select>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:branch分支1" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1c05a01b-e66a-4271-ae8d-4a3fc2e0561e" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/Zzz_Test.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/helloworld-maven.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/Basic1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/IgnoreTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsClass3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/groups/GroupsOnMethod.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/paramter/DataTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/paramter/ParamterTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/DependTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/ExceptedDemo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/LoginTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/PayTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/suite/SuiteConfig.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/thread/MultiThread.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/java/com/lianxi/thread/MultiThreadXML.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/resources/groupsOnClass.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/resources/multiThread.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/resources/paramter.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/helloworld-maven/src/main/resources/suite.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
++    <list default="true" id="1c05a01b-e66a-4271-ae8d-4a3fc2e0561e" name="Default Changelist" comment="idea提交分支上的">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/helloworld-maven/target/helloworld-maven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld-maven/target/helloworld-maven-1.0-SNAPSHOT.jar" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -73,6 +45,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="LogFilters">
+@@ -107,28 +84,25 @@
+     <key name="CopyClassDialog.RECENTS_KEY">
+       <recent name="com.lianxi.groups" />
+     </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="E:\muke\Zzz_Test\helloworld-maven\target\classes1" />
++      <recent name="E:\muke\Zzz_Test\helloworld-maven\target\classes" />
++    </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.TimeOutTest">
+-    <configuration name="DataTest" type="TestNG" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/suite.xml">
++    <configuration name="E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="helloworld-maven" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="com.lianxi.paramter.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="com.lianxi.paramter" />
+-      <option name="MAIN_CLASS_NAME" value="com.lianxi.paramter.DataTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="SUITE_NAME" value="$PROJECT_DIR$/helloworld-maven/src/main/resources/multiThread.xml" />
++      <option name="TEST_OBJECT" value="SUITE" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="E:/muke/Zzz_Test/helloworld-maven/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="helloworld-maven" />
+-      <option name="SUITE_NAME" value="$PROJECT_DIR$/helloworld-maven/src/main/resources/multiThread.xml" />
++      <option name="SUITE_NAME" value="$PROJECT_DIR$/helloworld-maven/src/main/resources/suite.xml" />
+       <option name="TEST_OBJECT" value="SUITE" />
+       <properties />
+       <listeners />
+@@ -259,20 +233,20 @@
+       </method>
+     </configuration>
+     <list>
+-      <item itemvalue="Tomcat Server.Tomcat 9.0.33" />
+-      <item itemvalue="TestNG.DataTest" />
+       <item itemvalue="TestNG.MultiThread" />
+       <item itemvalue="TestNG.MultiThread.test1" />
+       <item itemvalue="TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml" />
+       <item itemvalue="TestNG.TimeOutTest" />
++      <item itemvalue="TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/suite.xml" />
++      <item itemvalue="Tomcat Server.Tomcat 9.0.33" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/suite.xml" />
+         <item itemvalue="TestNG.TimeOutTest" />
+         <item itemvalue="TestNG.E:/muke/Zzz_Test/helloworld-maven/src/main/resources/multiThread.xml" />
+         <item itemvalue="TestNG.MultiThread.test1" />
+         <item itemvalue="TestNG.MultiThread" />
+-        <item itemvalue="TestNG.DataTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -291,7 +265,18 @@
+       <workItem from="1598606070688" duration="173000" />
+       <workItem from="1598678248445" duration="2764000" />
+       <workItem from="1598765162292" duration="11311000" />
++      <workItem from="1598962361720" duration="7000" />
++      <workItem from="1598962381791" duration="7000" />
++      <workItem from="1598962405683" duration="7000" />
+     </task>
++    <task id="LOCAL-00001" summary="idea提交分支上的">
++      <created>1598886830258</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1598886830258</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -308,6 +293,10 @@
+       </map>
+     </option>
+     <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="idea提交分支上的" />
++    <option name="LAST_COMMIT_MESSAGE" value="idea提交分支上的" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598604022887">
+@@ -318,31 +307,35 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="702" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598771077624" />
++    <state x="184" y="86" key="DiffContextDialog" timestamp="1598886848298">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598886848298" />
+     <state x="719" y="204" key="FileChooserDialogImpl" timestamp="1598687356199">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="719" y="204" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598606087629" />
+     <state x="719" y="204" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598687356199" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1598800762646">
++    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1598887122788">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598606046111" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598800762646" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1598800762646">
++    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598887122788" />
++    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1598887122788">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598606046111" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598800762646" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1598800762646">
++    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598887122788" />
++    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1598887122788">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598606046111" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598800762646" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1598800762646">
++    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598887122788" />
++    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1598887122788">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598606046111" />
+-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598800762646" />
++    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598887122788" />
+     <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1598606046111">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+@@ -380,6 +373,14 @@
+     </state>
+     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598604118315" />
+     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598687293783" />
++    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598886849551">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598886849551" />
++    <state x="680" y="307" key="git4idea.merge.GitPullDialog" timestamp="1598887113025">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="680" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598887113025" />
+     <state x="334" y="180" key="new project wizard" timestamp="1598602025202">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>

@@ -1,0 +1,18 @@
+Index: helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>E:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\thread\\MultiThread.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\groups\\GroupsClass3.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\suite\\PayTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\IgnoreTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\groups\\GroupsClass2.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\Basic1.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\suite\\LoginTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\paramter\\ParamterTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\groups\\GroupsOnMethod.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\thread\\MultiThreadXML.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\suite\\DependTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\suite\\ExceptedDemo.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\paramter\\DataTest.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\groups\\GroupsClass1.java\r\nE:\\muke\\Zzz_Test\\helloworld-maven\\src\\main\\java\\com\\lianxi\\suite\\SuiteConfig.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 9417abdfd0d5a48eb9a7dfcb30b93c244e04b133)
++++ helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1598886743568)
+@@ -1,6 +1,7 @@
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\thread\MultiThread.java
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\groups\GroupsClass3.java
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\suite\PayTest.java
++E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\suite\TimeOutTest.java
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\IgnoreTest.java
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\groups\GroupsClass2.java
+ E:\muke\Zzz_Test\helloworld-maven\src\main\java\com\lianxi\Basic1.java
+diff --git helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst helloworld-maven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
